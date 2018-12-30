@@ -61,7 +61,7 @@
 </layers>
 <library>
 <packages>
-<package name="QFP50P1200X1200X120-64N">
+<package name="TQFP-64">
 <wire x1="-5" y1="5" x2="5" y2="5" width="0.127" layer="51"/>
 <wire x1="5" y1="5" x2="5" y2="-5" width="0.127" layer="51"/>
 <wire x1="5" y1="-5" x2="-5" y2="-5" width="0.127" layer="51"/>
@@ -147,7 +147,7 @@
 <smd name="63" x="-3.25" y="5.67" dx="1.47" dy="0.28" layer="1" roundness="25" rot="R270"/>
 <smd name="64" x="-3.75" y="5.67" dx="1.47" dy="0.28" layer="1" roundness="25" rot="R270"/>
 </package>
-<package name="SOIC127P600X175-8N">
+<package name="SOIC-8">
 <text x="-3.92373125" y="-2.686409375" size="1.274459375" layer="27" align="top-left">&gt;VALUE</text>
 <text x="-3.91801875" y="2.682490625" size="1.2726" layer="25">&gt;NAME</text>
 <circle x="-4.27" y="2.005" radius="0.1" width="0.2" layer="21"/>
@@ -171,7 +171,7 @@
 <smd name="7" x="2.455" y="0.635" dx="1.9" dy="0.6" layer="1" roundness="25"/>
 <smd name="8" x="2.455" y="1.905" dx="1.9" dy="0.6" layer="1" roundness="25"/>
 </package>
-<package name="SOIC127P600X175-14N">
+<package name="SOIC-14">
 <text x="-3.9754" y="-4.558190625" size="1.27173125" layer="27" align="top-left">&gt;VALUE</text>
 <text x="-3.972259375" y="4.5546" size="1.27071875" layer="25">&gt;NAME</text>
 <circle x="-4.445" y="4.41" radius="0.2" width="0" layer="21"/>
@@ -204,131 +204,123 @@
 </packages>
 <symbols>
 <symbol name="ATSAME51J20A-AU">
-<wire x1="-12.7" y1="58.42" x2="12.7" y2="58.42" width="0.254" layer="94"/>
-<wire x1="12.7" y1="58.42" x2="12.7" y2="-58.42" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-58.42" x2="-12.7" y2="-58.42" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-58.42" x2="-12.7" y2="58.42" width="0.254" layer="94"/>
-<text x="-12.7459" y="61.1807" size="3.23748125" layer="95">&gt;NAME</text>
-<text x="-12.7296" y="-63.6476" size="3.2333" layer="96">&gt;VALUE</text>
-<pin name="PA11" x="-17.78" y="2.54" length="middle"/>
-<pin name="VDDIO_1" x="17.78" y="53.34" length="middle" direction="pwr" rot="R180"/>
-<pin name="GND_2" x="17.78" y="-48.26" length="middle" direction="pwr" rot="R180"/>
-<pin name="PB10" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="PB11" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="PB12" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="PB13" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="PB14" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="PB15" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<pin name="PA12" x="-17.78" y="0" length="middle"/>
-<pin name="PA13" x="-17.78" y="-2.54" length="middle"/>
-<pin name="PA14/XIN_0" x="-17.78" y="-5.08" length="middle"/>
-<pin name="PA15/XOUT_0" x="-17.78" y="-7.62" length="middle"/>
-<pin name="GND_3" x="17.78" y="-50.8" length="middle" direction="pwr" rot="R180"/>
-<pin name="PA16" x="-17.78" y="-10.16" length="middle"/>
-<pin name="VDDIO_2" x="17.78" y="50.8" length="middle" direction="pwr" rot="R180"/>
-<pin name="PA17" x="-17.78" y="-12.7" length="middle"/>
-<pin name="PA19" x="-17.78" y="-17.78" length="middle"/>
-<pin name="PA18" x="-17.78" y="-15.24" length="middle"/>
-<pin name="PB16" x="17.78" y="-10.16" length="middle" rot="R180"/>
-<pin name="PB17" x="17.78" y="-12.7" length="middle" rot="R180"/>
-<pin name="PA20" x="-17.78" y="-20.32" length="middle"/>
-<pin name="PA21" x="-17.78" y="-22.86" length="middle"/>
-<pin name="PA22" x="-17.78" y="-25.4" length="middle"/>
-<pin name="PA23" x="-17.78" y="-27.94" length="middle"/>
-<pin name="PA24" x="-17.78" y="-30.48" length="middle"/>
-<pin name="PA25" x="-17.78" y="-33.02" length="middle"/>
-<pin name="GND_4" x="17.78" y="-53.34" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDDIO_3" x="17.78" y="48.26" length="middle" direction="pwr" rot="R180"/>
-<pin name="PB22/XIN_1" x="17.78" y="-15.24" length="middle" rot="R180"/>
-<pin name="PB23/XOUT_1" x="17.78" y="-17.78" length="middle" rot="R180"/>
-<pin name="PA10" x="-17.78" y="5.08" length="middle"/>
-<pin name="PA09" x="-17.78" y="7.62" length="middle"/>
-<pin name="PA08" x="-17.78" y="10.16" length="middle"/>
-<pin name="PA07" x="-17.78" y="12.7" length="middle"/>
-<pin name="PA05" x="-17.78" y="17.78" length="middle"/>
-<pin name="PA06" x="-17.78" y="15.24" length="middle"/>
-<pin name="PA04" x="-17.78" y="20.32" length="middle"/>
-<pin name="PB09" x="17.78" y="7.62" length="middle" rot="R180"/>
-<pin name="PB08" x="17.78" y="10.16" length="middle" rot="R180"/>
-<pin name="PB07" x="17.78" y="12.7" length="middle" rot="R180"/>
-<pin name="PB06" x="17.78" y="15.24" length="middle" rot="R180"/>
-<pin name="VDDANA" x="17.78" y="43.18" length="middle" direction="pwr" rot="R180"/>
-<pin name="GND_1" x="17.78" y="-45.72" length="middle" direction="pwr" rot="R180"/>
-<pin name="PB05" x="17.78" y="17.78" length="middle" rot="R180"/>
-<pin name="PB04" x="17.78" y="20.32" length="middle" rot="R180"/>
-<pin name="PA03" x="-17.78" y="22.86" length="middle"/>
-<pin name="PA02" x="-17.78" y="25.4" length="middle"/>
-<pin name="PA01/XOUT32" x="-17.78" y="27.94" length="middle"/>
-<pin name="PA00/XIN32" x="-17.78" y="30.48" length="middle"/>
-<pin name="PB03" x="17.78" y="22.86" length="middle" rot="R180"/>
-<pin name="PA27" x="-17.78" y="-35.56" length="middle"/>
-<pin name="!RESETN" x="-17.78" y="35.56" length="middle" direction="in"/>
-<pin name="VDDCORE" x="17.78" y="55.88" length="middle" direction="pwr" rot="R180"/>
-<pin name="GND_5" x="17.78" y="-55.88" length="middle" direction="pwr" rot="R180"/>
-<pin name="VSW" x="17.78" y="40.64" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDDIO_4" x="17.78" y="45.72" length="middle" direction="pwr" rot="R180"/>
-<pin name="PA30" x="-17.78" y="-38.1" length="middle"/>
-<pin name="PA31" x="-17.78" y="-40.64" length="middle"/>
-<pin name="PB30" x="17.78" y="-20.32" length="middle" rot="R180"/>
-<pin name="PB31" x="17.78" y="-22.86" length="middle" rot="R180"/>
-<pin name="PB00" x="17.78" y="30.48" length="middle" rot="R180"/>
-<pin name="PB01" x="17.78" y="27.94" length="middle" rot="R180"/>
-<pin name="PB02" x="17.78" y="25.4" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="53.34" x2="12.7" y2="53.34" width="0.254" layer="94"/>
+<wire x1="12.7" y1="53.34" x2="12.7" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-48.26" x2="-12.7" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-48.26" x2="-12.7" y2="53.34" width="0.254" layer="94"/>
+<text x="-12.7459" y="56.1007" size="3.23748125" layer="95">&gt;NAME</text>
+<text x="-12.7296" y="-53.4876" size="3.2333" layer="96">&gt;VALUE</text>
+<pin name="PA11" x="-17.78" y="-2.54" length="middle"/>
+<pin name="VDDIO_1" x="17.78" y="48.26" length="middle" direction="pwr" rot="R180"/>
+<pin name="PB10" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="PB11" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="PB12" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="PB13" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="PB14" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="PB15" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="PA12" x="-17.78" y="-5.08" length="middle"/>
+<pin name="PA13" x="-17.78" y="-7.62" length="middle"/>
+<pin name="PA14/XIN_0" x="-17.78" y="-10.16" length="middle"/>
+<pin name="PA15/XOUT_0" x="-17.78" y="-12.7" length="middle"/>
+<pin name="PA16" x="-17.78" y="-15.24" length="middle"/>
+<pin name="VDDIO_2" x="17.78" y="45.72" length="middle" direction="pwr" rot="R180"/>
+<pin name="PA17" x="-17.78" y="-17.78" length="middle"/>
+<pin name="PA19" x="-17.78" y="-22.86" length="middle"/>
+<pin name="PA18" x="-17.78" y="-20.32" length="middle"/>
+<pin name="PB16" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="PB17" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="PA20" x="-17.78" y="-25.4" length="middle"/>
+<pin name="PA21" x="-17.78" y="-27.94" length="middle"/>
+<pin name="PA22" x="-17.78" y="-30.48" length="middle"/>
+<pin name="PA23" x="-17.78" y="-33.02" length="middle"/>
+<pin name="PA24" x="-17.78" y="-35.56" length="middle"/>
+<pin name="PA25" x="-17.78" y="-38.1" length="middle"/>
+<pin name="VDDIO_3" x="17.78" y="43.18" length="middle" direction="pwr" rot="R180"/>
+<pin name="PB22/XIN_1" x="17.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="PB23/XOUT_1" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="PA10" x="-17.78" y="0" length="middle"/>
+<pin name="PA09" x="-17.78" y="2.54" length="middle"/>
+<pin name="PA08" x="-17.78" y="5.08" length="middle"/>
+<pin name="PA07" x="-17.78" y="7.62" length="middle"/>
+<pin name="PA05" x="-17.78" y="12.7" length="middle"/>
+<pin name="PA06" x="-17.78" y="10.16" length="middle"/>
+<pin name="PA04" x="-17.78" y="15.24" length="middle"/>
+<pin name="PB09" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="PB08" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="PB07" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="PB06" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="VDDANA" x="17.78" y="38.1" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="17.78" y="-45.72" length="middle" direction="pwr" rot="R180"/>
+<pin name="PB05" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="PB04" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="PA03" x="-17.78" y="17.78" length="middle"/>
+<pin name="PA02" x="-17.78" y="20.32" length="middle"/>
+<pin name="PA01/XOUT32" x="-17.78" y="22.86" length="middle"/>
+<pin name="PA00/XIN32" x="-17.78" y="25.4" length="middle"/>
+<pin name="PB03" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="PA27" x="-17.78" y="-40.64" length="middle"/>
+<pin name="!RESETN" x="-17.78" y="30.48" length="middle" direction="in"/>
+<pin name="VDDCORE" x="17.78" y="50.8" length="middle" direction="pwr" rot="R180"/>
+<pin name="VSW" x="17.78" y="35.56" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDIO_4" x="17.78" y="40.64" length="middle" direction="pwr" rot="R180"/>
+<pin name="PA30" x="-17.78" y="-43.18" length="middle"/>
+<pin name="PA31" x="-17.78" y="-45.72" length="middle"/>
+<pin name="PB30" x="17.78" y="-25.4" length="middle" rot="R180"/>
+<pin name="PB31" x="17.78" y="-27.94" length="middle" rot="R180"/>
+<pin name="PB00" x="17.78" y="25.4" length="middle" rot="R180"/>
+<pin name="PB01" x="17.78" y="22.86" length="middle" rot="R180"/>
+<pin name="PB02" x="17.78" y="20.32" length="middle" rot="R180"/>
 </symbol>
 <symbol name="ATTINY102F-SSNR">
-<wire x1="-17.78" y1="10.16" x2="17.78" y2="10.16" width="0.41" layer="94"/>
-<wire x1="17.78" y1="10.16" x2="17.78" y2="-10.16" width="0.41" layer="94"/>
-<wire x1="17.78" y1="-10.16" x2="-17.78" y2="-10.16" width="0.41" layer="94"/>
-<wire x1="-17.78" y1="-10.16" x2="-17.78" y2="10.16" width="0.41" layer="94"/>
-<text x="-17.8007" y="11.173" size="2.08523125" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-17.781" y="-14.1608" size="2.08291875" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-<pin name="PA0" x="-22.86" y="0" length="middle"/>
-<pin name="PA1" x="-22.86" y="-2.54" length="middle"/>
-<pin name="PA2" x="-22.86" y="-5.08" length="middle"/>
-<pin name="GND" x="22.86" y="5.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="VCC" x="22.86" y="7.62" length="middle" direction="pwr" rot="R180"/>
-<pin name="PB1" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="PB2" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="PB3" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<wire x1="-17.78" y1="7.62" x2="17.78" y2="7.62" width="0.41" layer="94"/>
+<wire x1="17.78" y1="7.62" x2="17.78" y2="-7.62" width="0.41" layer="94"/>
+<wire x1="17.78" y1="-7.62" x2="-17.78" y2="-7.62" width="0.41" layer="94"/>
+<wire x1="-17.78" y1="-7.62" x2="-17.78" y2="7.62" width="0.41" layer="94"/>
+<text x="-17.8007" y="8.633" size="2.08523125" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-17.781" y="-10.6048" size="2.08291875" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="PA0" x="-22.86" y="2.54" length="middle"/>
+<pin name="PA1" x="-22.86" y="0" length="middle"/>
+<pin name="PA2" x="-22.86" y="-2.54" length="middle"/>
+<pin name="GND" x="22.86" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCC" x="22.86" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="PB1" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="PB2" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="PB3" x="22.86" y="-2.54" length="middle" rot="R180"/>
 </symbol>
 <symbol name="ATTINY104-SSFR">
-<wire x1="-17.78" y1="15.24" x2="17.78" y2="15.24" width="0.41" layer="94"/>
-<wire x1="17.78" y1="15.24" x2="17.78" y2="-15.24" width="0.41" layer="94"/>
-<wire x1="17.78" y1="-15.24" x2="-17.78" y2="-15.24" width="0.41" layer="94"/>
-<wire x1="-17.78" y1="-15.24" x2="-17.78" y2="15.24" width="0.41" layer="94"/>
-<text x="-17.8026" y="16.2607" size="2.08545" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-17.8046" y="-19.2667" size="2.085690625" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<wire x1="-17.78" y1="12.7" x2="17.78" y2="12.7" width="0.41" layer="94"/>
+<wire x1="17.78" y1="12.7" x2="17.78" y2="-10.16" width="0.41" layer="94"/>
+<wire x1="17.78" y1="-10.16" x2="-17.78" y2="-10.16" width="0.41" layer="94"/>
+<wire x1="-17.78" y1="-10.16" x2="-17.78" y2="12.7" width="0.41" layer="94"/>
+<text x="-17.8026" y="13.7207" size="2.08545" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-17.8046" y="-13.4247" size="2.085690625" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 <pin name="PA0" x="-22.86" y="7.62" length="middle"/>
 <pin name="PA1" x="-22.86" y="5.08" length="middle"/>
 <pin name="PA2" x="-22.86" y="2.54" length="middle"/>
 <pin name="PA3" x="-22.86" y="0" length="middle"/>
 <pin name="PA4" x="-22.86" y="-2.54" length="middle"/>
 <pin name="PA5" x="-22.86" y="-5.08" length="middle"/>
-<pin name="VCC" x="22.86" y="12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCC" x="22.86" y="10.16" length="middle" direction="pwr" rot="R180"/>
 <pin name="PA6" x="22.86" y="7.62" length="middle" rot="R180"/>
 <pin name="PA7" x="22.86" y="5.08" length="middle" rot="R180"/>
 <pin name="PB0" x="22.86" y="2.54" length="middle" rot="R180"/>
 <pin name="PB1" x="22.86" y="0" length="middle" rot="R180"/>
 <pin name="PB2" x="22.86" y="-2.54" length="middle" rot="R180"/>
 <pin name="PB3" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="GND" x="22.86" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="22.86" y="-7.62" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATSAME51J20A-AU" prefix="U">
+<deviceset name="ATSAME51J20A-AU" prefix="U" uservalue="yes">
 <description>IC MCU 32BIT 512KB FLASH 64LQFP</description>
 <gates>
 <gate name="G$1" symbol="ATSAME51J20A-AU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="QFP50P1200X1200X120-64N">
+<device name="" package="TQFP-64">
 <connects>
 <connect gate="G$1" pin="!RESETN" pad="52"/>
-<connect gate="G$1" pin="GND_1" pad="7"/>
-<connect gate="G$1" pin="GND_2" pad="22"/>
-<connect gate="G$1" pin="GND_3" pad="33"/>
-<connect gate="G$1" pin="GND_4" pad="47"/>
-<connect gate="G$1" pin="GND_5" pad="54"/>
+<connect gate="G$1" pin="GND" pad="7 22 33 47 54"/>
 <connect gate="G$1" pin="PA00/XIN32" pad="1"/>
 <connect gate="G$1" pin="PA01/XOUT32" pad="2"/>
 <connect gate="G$1" pin="PA02" pad="3"/>
@@ -394,8 +386,8 @@
 <attribute name="DESCRIPTION" value=" MCU 32-bit ARM Cortex M4F RISC 1024KB Flash 3.3V 64-Pin TQFP Tray "/>
 <attribute name="MF" value="Microchip"/>
 <attribute name="MP" value="ATSAME51J20A-AU"/>
-<attribute name="PACKAGE" value="TQFP-64 Microchip"/>
-<attribute name="PRICE" value="5.17 USD"/>
+<attribute name="PACKAGE" value="TQFP-64"/>
+<attribute name="VALUE" value="ATSAME51J20A-AU" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -407,7 +399,7 @@
 <gate name="G$1" symbol="ATTINY102F-SSNR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOIC127P600X175-8N">
+<device name="" package="SOIC-8">
 <connects>
 <connect gate="G$1" pin="GND" pad="8"/>
 <connect gate="G$1" pin="PA0" pad="2"/>
@@ -437,7 +429,7 @@
 <gate name="G$1" symbol="ATTINY104-SSFR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOIC127P600X175-14N">
+<device name="" package="SOIC-14">
 <connects>
 <connect gate="G$1" pin="GND" pad="14"/>
 <connect gate="G$1" pin="PA0" pad="2"/>

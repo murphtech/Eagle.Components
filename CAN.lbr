@@ -159,7 +159,6 @@ CAN FD Ready</description>
 <attribute name="MF" value="Microchip"/>
 <attribute name="MP" value="MCP2562"/>
 <attribute name="PACKAGE" value="SOIC-8"/>
-<attribute name="PRICE" value="None"/>
 <attribute name="VALUE" value="MCP2562" constant="no"/>
 </technology>
 </technologies>

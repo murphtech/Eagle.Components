@@ -93,12 +93,12 @@
 </packages>
 <symbols>
 <symbol name="BM71BLES1FC2">
-<wire x1="-7.62" y1="25.4" x2="10.16" y2="25.4" width="0.254" layer="94"/>
-<wire x1="10.16" y1="25.4" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-25.4" x2="-7.62" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-25.4" x2="-7.62" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="22.86" x2="5.08" y2="22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="22.86" x2="5.08" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-25.4" x2="-7.62" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-25.4" x2="-7.62" y2="22.86" width="0.254" layer="94"/>
 <pin name="BT_RF" x="-12.7" y="10.16" length="middle"/>
-<pin name="GND0" x="-12.7" y="20.32" length="middle" direction="pwr"/>
+<pin name="GND" x="-12.7" y="17.78" length="middle" direction="pwr"/>
 <pin name="P1_2" x="-12.7" y="0" length="middle"/>
 <pin name="P1_3" x="-12.7" y="-2.54" length="middle"/>
 <pin name="P1_7" x="-12.7" y="-7.62" length="middle"/>
@@ -109,11 +109,10 @@
 <pin name="RST_N" x="-12.7" y="12.7" length="middle"/>
 <pin name="P0_0" x="-12.7" y="5.08" length="middle"/>
 <pin name="P0_2" x="-12.7" y="2.54" length="middle"/>
-<pin name="GND1" x="-12.7" y="17.78" length="middle" direction="pwr"/>
-<pin name="VBAT" x="-12.7" y="22.86" length="middle" direction="pwr"/>
+<pin name="VCC" x="-12.7" y="20.32" length="middle" direction="pwr"/>
 <pin name="P2_7" x="-12.7" y="-12.7" length="middle"/>
 <pin name="P2_0" x="-12.7" y="-10.16" length="middle"/>
-<text x="-7.62" y="26.67" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="24.13" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-27.94" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
@@ -126,8 +125,7 @@
 <device name="" package="BM71BLES1FC2">
 <connects>
 <connect gate="G$1" pin="BT_RF" pad="1"/>
-<connect gate="G$1" pin="GND0" pad="2"/>
-<connect gate="G$1" pin="GND1" pad="13"/>
+<connect gate="G$1" pin="GND" pad="2 13"/>
 <connect gate="G$1" pin="HCI_RXD" pad="7"/>
 <connect gate="G$1" pin="HCI_TXD" pad="8"/>
 <connect gate="G$1" pin="P0_0" pad="11"/>
@@ -140,7 +138,7 @@
 <connect gate="G$1" pin="P2_7" pad="15"/>
 <connect gate="G$1" pin="P3_6" pad="9"/>
 <connect gate="G$1" pin="RST_N" pad="10"/>
-<connect gate="G$1" pin="VBAT" pad="14"/>
+<connect gate="G$1" pin="VCC" pad="14"/>
 </connects>
 <technologies>
 <technology name="">
