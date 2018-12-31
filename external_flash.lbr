@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -61,7 +61,7 @@
 </layers>
 <library>
 <packages>
-<package name="SOIC127P600X175-8N">
+<package name="SOIC-8">
 <wire x1="-1.9812" y1="1.651" x2="-1.9812" y2="2.159" width="0.1524" layer="51"/>
 <wire x1="-1.9812" y1="2.159" x2="-3.0988" y2="2.159" width="0.1524" layer="51"/>
 <wire x1="-3.0988" y1="2.159" x2="-3.0988" y2="1.651" width="0.1524" layer="51"/>
@@ -115,6 +115,32 @@
 <smd name="7" x="2.4638" y="0.635" dx="1.9812" dy="0.5588" layer="1" roundness="25"/>
 <smd name="8" x="2.4638" y="1.905" dx="1.9812" dy="0.5588" layer="1" roundness="25"/>
 </package>
+<package name="UDFN-8">
+<rectangle x1="-0.9298125" y1="-1.08476875" x2="0.9" y2="1.05" layer="31"/>
+<text x="-4.25631875" y="-2.79685" size="1.30251875" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-4.27993125" y="2.812359375" size="1.30976875" layer="25">&gt;NAME</text>
+<circle x="-3.915" y="2.345" radius="0.2" width="0" layer="21"/>
+<circle x="-3.915" y="2.345" radius="0.2" width="0" layer="21"/>
+<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="-2.5" x2="3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-2.5" x2="3" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="2.5" x2="-3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-3.615" y1="2.75" x2="3.615" y2="2.75" width="0.05" layer="39"/>
+<wire x1="-3.615" y1="-2.75" x2="3.615" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="-3.615" y1="2.75" x2="-3.615" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="3.615" y1="2.75" x2="3.615" y2="-2.75" width="0.05" layer="39"/>
+<smd name="1" x="-2.815" y="1.905" dx="1.1" dy="0.44" layer="1" roundness="25"/>
+<smd name="2" x="-2.815" y="0.635" dx="1.1" dy="0.44" layer="1" roundness="25"/>
+<smd name="3" x="-2.815" y="-0.635" dx="1.1" dy="0.44" layer="1" roundness="25"/>
+<smd name="4" x="-2.815" y="-1.905" dx="1.1" dy="0.44" layer="1" roundness="25"/>
+<smd name="5" x="2.815" y="-1.905" dx="1.1" dy="0.44" layer="1" roundness="25"/>
+<smd name="6" x="2.815" y="-0.635" dx="1.1" dy="0.44" layer="1" roundness="25"/>
+<smd name="7" x="2.815" y="0.635" dx="1.1" dy="0.44" layer="1" roundness="25"/>
+<smd name="8" x="2.815" y="1.905" dx="1.1" dy="0.44" layer="1" roundness="25"/>
+<smd name="9" x="0" y="0" dx="3.6" dy="4.2" layer="1" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AT45DQ161-SHF-B">
@@ -135,13 +161,13 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AT45DQ161-SHF-B" prefix="U" uservalue="yes">
+<deviceset name="AT45DQ161" prefix="U" uservalue="yes">
 <description>None</description>
 <gates>
 <gate name="G$1" symbol="AT45DQ161-SHF-B" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOIC127P600X175-8N">
+<device name="-SHF" package="SOIC-8">
 <connects>
 <connect gate="G$1" pin="!CS" pad="4"/>
 <connect gate="G$1" pin="!RESET" pad="3"/>
@@ -160,6 +186,21 @@
 <attribute name="PACKAGE" value="SOIC-8"/>
 <attribute name="VALUE" value="AT45DQ161" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="-MHF" package="UDFN-8">
+<connects>
+<connect gate="G$1" pin="!CS" pad="4"/>
+<connect gate="G$1" pin="!RESET" pad="3"/>
+<connect gate="G$1" pin="!WP" pad="5"/>
+<connect gate="G$1" pin="GND" pad="7 9"/>
+<connect gate="G$1" pin="MISO" pad="8"/>
+<connect gate="G$1" pin="MOSI" pad="1"/>
+<connect gate="G$1" pin="SCK" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

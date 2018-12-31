@@ -82,7 +82,7 @@
 </packages>
 <symbols>
 <symbol name="TESTPAD">
-<pin name="P$1" x="0" y="-2.54" length="middle" rot="R90"/>
+<pin name="&gt;NAME" x="0" y="-2.54" length="middle" rot="R90"/>
 <wire x1="0" y1="2.54" x2="-1.016" y2="3.556" width="0.1524" layer="94"/>
 <wire x1="-1.016" y1="3.556" x2="0" y2="4.572" width="0.1524" layer="94"/>
 <wire x1="0" y1="4.572" x2="1.016" y2="3.556" width="0.1524" layer="94"/>
@@ -97,7 +97,7 @@
 <devices>
 <device name="RD_0.50MM" package="RD_0.50MM">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="&gt;NAME" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -105,7 +105,7 @@
 </device>
 <device name="RD_0.75MM" package="RD_0.75MM">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="&gt;NAME" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -120,7 +120,7 @@
 <devices>
 <device name="0.50MM" package="SQ_0.50MM">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="&gt;NAME" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -128,7 +128,7 @@
 </device>
 <device name="0.75MM" package="SQ_0.75MM">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="&gt;NAME" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -136,7 +136,7 @@
 </device>
 <device name="1.25MM" package="SQ_1.25MM">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="&gt;NAME" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -144,7 +144,7 @@
 </device>
 <device name="1.00MM" package="SQ_1.00MM">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="&gt;NAME" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
