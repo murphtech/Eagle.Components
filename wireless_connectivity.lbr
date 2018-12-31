@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -62,12 +62,12 @@
 <library>
 <packages>
 <package name="BM71BLES1FC2">
-<smd name="5" x="0.25" y="1.9" dx="1.5" dy="0.7" layer="1"/>
-<smd name="4" x="0.25" y="3.1" dx="1.5" dy="0.7" layer="1"/>
-<smd name="3" x="0.25" y="4.3" dx="1.5" dy="0.7" layer="1"/>
-<smd name="2" x="0.25" y="5.5" dx="1.5" dy="0.7" layer="1"/>
-<smd name="1" x="0.25" y="6.7" dx="1.5" dy="0.7" layer="1"/>
-<smd name="6" x="1.5" y="0.25" dx="1.5" dy="0.7" layer="1" rot="R270"/>
+<smd name="5" x="0.25" y="1.9" dx="1.5" dy="0.7" layer="1" roundness="25"/>
+<smd name="4" x="0.25" y="3.1" dx="1.5" dy="0.7" layer="1" roundness="25"/>
+<smd name="3" x="0.25" y="4.3" dx="1.5" dy="0.7" layer="1" roundness="25"/>
+<smd name="2" x="0.25" y="5.5" dx="1.5" dy="0.7" layer="1" roundness="25"/>
+<smd name="1" x="0.25" y="6.7" dx="1.5" dy="0.7" layer="1" roundness="25"/>
+<smd name="6" x="1.5" y="0.25" dx="1.5" dy="0.7" layer="1" roundness="25" rot="R270"/>
 <wire x1="0" y1="0" x2="0" y2="7.5" width="0.1524" layer="21"/>
 <wire x1="0" y1="7.5" x2="0" y2="11.5" width="0.1524" layer="21"/>
 <wire x1="0" y1="11.5" x2="9" y2="11.5" width="0.1524" layer="21"/>
@@ -75,20 +75,20 @@
 <wire x1="9" y1="0" x2="9" y2="7.5" width="0.1524" layer="21"/>
 <wire x1="9" y1="7.5" x2="9" y2="11.5" width="0.1524" layer="21"/>
 <wire x1="0" y1="7.5" x2="9" y2="7.5" width="0.1524" layer="21"/>
-<smd name="7" x="2.7" y="0.25" dx="1.5" dy="0.7" layer="1" rot="R270"/>
-<smd name="8" x="3.9" y="0.25" dx="1.5" dy="0.7" layer="1" rot="R270"/>
-<smd name="9" x="5.1" y="0.25" dx="1.5" dy="0.7" layer="1" rot="R270"/>
-<smd name="10" x="6.3" y="0.25" dx="1.5" dy="0.7" layer="1" rot="R270"/>
-<smd name="11" x="7.5" y="0.25" dx="1.5" dy="0.7" layer="1" rot="R270"/>
-<smd name="12" x="8.75" y="1.9" dx="1.5" dy="0.7" layer="1"/>
-<smd name="13" x="8.75" y="3.1" dx="1.5" dy="0.7" layer="1"/>
-<smd name="14" x="8.75" y="4.3" dx="1.5" dy="0.7" layer="1"/>
-<smd name="15" x="8.75" y="5.5" dx="1.5" dy="0.7" layer="1"/>
-<smd name="16" x="8.75" y="6.7" dx="1.5" dy="0.7" layer="1"/>
+<smd name="7" x="2.7" y="0.25" dx="1.5" dy="0.7" layer="1" roundness="25" rot="R270"/>
+<smd name="8" x="3.9" y="0.25" dx="1.5" dy="0.7" layer="1" roundness="25" rot="R270"/>
+<smd name="9" x="5.1" y="0.25" dx="1.5" dy="0.7" layer="1" roundness="25" rot="R270"/>
+<smd name="10" x="6.3" y="0.25" dx="1.5" dy="0.7" layer="1" roundness="25" rot="R270"/>
+<smd name="11" x="7.5" y="0.25" dx="1.5" dy="0.7" layer="1" roundness="25" rot="R270"/>
+<smd name="12" x="8.75" y="1.9" dx="1.5" dy="0.7" layer="1" roundness="25"/>
+<smd name="13" x="8.75" y="3.1" dx="1.5" dy="0.7" layer="1" roundness="25"/>
+<smd name="14" x="8.75" y="4.3" dx="1.5" dy="0.7" layer="1" roundness="25"/>
+<smd name="15" x="8.75" y="5.5" dx="1.5" dy="0.7" layer="1" roundness="25"/>
+<smd name="16" x="8.75" y="6.7" dx="1.5" dy="0.7" layer="1" roundness="25"/>
 <rectangle x1="-0.381" y1="7.239" x2="9.398" y2="11.811" layer="39"/>
 <rectangle x1="-0.381" y1="7.239" x2="9.398" y2="11.811" layer="40"/>
-<text x="2.54" y="8.89" size="0.8128" layer="21">antenna</text>
-<text x="3.175" y="3.81" size="0.8128" layer="21">BM71</text>
+<text x="1.905" y="5.08" size="0.8128" layer="25">&gt;NAME</text>
+<text x="1.905" y="3.81" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>

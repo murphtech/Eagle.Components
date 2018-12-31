@@ -66,8 +66,8 @@
 <wire x1="3.35" y1="-1.85" x2="-3.35" y2="-1.85" width="0.2032" layer="51"/>
 <wire x1="-3.35" y1="-1.85" x2="-3.35" y2="1.85" width="0.2032" layer="51"/>
 <wire x1="-3.35" y1="1.85" x2="3.35" y2="1.85" width="0.2032" layer="51"/>
-<text x="-3.80555" y="-3.6322" size="1.274259375" layer="25" rot="R90">&gt;NAME</text>
-<text x="5.0901" y="-3.6322" size="1.27175" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-3.80555" y="-2.3622" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.5821" y="-2.3622" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
 <wire x1="-3.35" y1="-1.85" x2="-3.35" y2="1.85" width="0.2032" layer="21"/>
 <wire x1="3.35" y1="1.85" x2="3.35" y2="-1.85" width="0.2032" layer="21"/>
 <wire x1="-3.35" y1="1.85" x2="-1.8" y2="1.85" width="0.2032" layer="21"/>
@@ -84,10 +84,10 @@
 <wire x1="-3.6" y1="-2.1" x2="-3.6" y2="2.1" width="0.05" layer="39"/>
 <wire x1="-3.6" y1="2.1" x2="-1.85" y2="2.1" width="0.05" layer="39"/>
 <wire x1="-1.85" y1="2.1" x2="-1.85" y2="4.26" width="0.05" layer="39"/>
-<smd name="1" x="-2.3" y="-2.95" dx="0.93" dy="2.11" layer="1"/>
-<smd name="2" x="0" y="-2.95" dx="0.93" dy="2.11" layer="1"/>
-<smd name="3" x="2.3" y="-2.95" dx="0.93" dy="2.11" layer="1"/>
-<smd name="4" x="0" y="3.035" dx="3.19" dy="1.94" layer="1"/>
+<smd name="1" x="-2.3" y="-2.95" dx="0.93" dy="2.11" layer="1" roundness="25"/>
+<smd name="2" x="0" y="-2.95" dx="0.93" dy="2.11" layer="1" roundness="25"/>
+<smd name="3" x="2.3" y="-2.95" dx="0.93" dy="2.11" layer="1" roundness="25"/>
+<smd name="4" x="0" y="3.035" dx="3.19" dy="1.94" layer="1" roundness="25"/>
 </package>
 <package name="SOT-23-5">
 <description>Small Outline Transistor (SOT23), 0.95 mm pitch; 5 pin, 2.90 mm L X 1.60 mm W X 1.45 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
@@ -109,15 +109,15 @@
 <wire x1="0.88" y1="1.53" x2="0.88" y2="-1.53" width="0.12" layer="51"/>
 <wire x1="-0.875" y1="1.53" x2="0.875" y2="1.53" width="0.12" layer="21"/>
 <wire x1="-0.875" y1="-1.53" x2="0.875" y2="-1.53" width="0.12" layer="21"/>
-<text x="-2.54871875" y="2.54871875" size="1.20411875" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.544759375" y="-3.81715" size="1.20225" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="1.91371875" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-2.67415" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-0.88" y1="-1.53" x2="0.88" y2="-1.53" width="0.12" layer="51"/>
 <circle x="-0.47" y="1.15" radius="0.1" width="0.2" layer="51"/>
-<smd name="1" x="-1.255" y="0.95" dx="1.21" dy="0.59" layer="1" roundness="15" rot="R180"/>
-<smd name="2" x="-1.255" y="0" dx="1.21" dy="0.59" layer="1" roundness="15" rot="R180"/>
-<smd name="3" x="-1.255" y="-0.95" dx="1.21" dy="0.59" layer="1" roundness="15" rot="R180"/>
-<smd name="4" x="1.255" y="-0.95" dx="1.21" dy="0.59" layer="1" roundness="15"/>
-<smd name="5" x="1.255" y="0.95" dx="1.21" dy="0.59" layer="1" roundness="15"/>
+<smd name="1" x="-1.255" y="0.95" dx="1.21" dy="0.59" layer="1" roundness="25" rot="R180"/>
+<smd name="2" x="-1.255" y="0" dx="1.21" dy="0.59" layer="1" roundness="25" rot="R180"/>
+<smd name="3" x="-1.255" y="-0.95" dx="1.21" dy="0.59" layer="1" roundness="25" rot="R180"/>
+<smd name="4" x="1.255" y="-0.95" dx="1.21" dy="0.59" layer="1" roundness="25"/>
+<smd name="5" x="1.255" y="0.95" dx="1.21" dy="0.59" layer="1" roundness="25"/>
 </package>
 </packages>
 <symbols>
