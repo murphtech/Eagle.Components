@@ -73,6 +73,9 @@
 <package name="RD_0.75MM">
 <smd name="P$1" x="0" y="0" dx="0.8" dy="0.8" layer="1" roundness="100"/>
 </package>
+<package name="SQ_1.25MM">
+<smd name="P$1" x="0" y="0" dx="1.25" dy="1.25" layer="1" roundness="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TESTPAD">
@@ -114,6 +117,14 @@
 </technologies>
 </device>
 <device name="RD_0.75MM" package="RD_0.75MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_RD_1.25MM" package="SQ_1.25MM">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
