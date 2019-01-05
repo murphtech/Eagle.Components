@@ -160,7 +160,7 @@ CAN FD Ready</description>
 <gate name="G$1" symbol="MCP2562" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOIC-8">
+<device name="-SOIC8" package="SOIC-8">
 <connects>
 <connect gate="G$1" pin="CANH" pad="7"/>
 <connect gate="G$1" pin="CANL" pad="6"/>
@@ -181,7 +181,7 @@ CAN FD Ready</description>
 </technology>
 </technologies>
 </device>
-<device name="DFN-8" package="DFN-8">
+<device name="-DFN8" package="DFN-8">
 <connects>
 <connect gate="G$1" pin="CANH" pad="7"/>
 <connect gate="G$1" pin="CANL" pad="6"/>
