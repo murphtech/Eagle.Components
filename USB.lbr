@@ -156,6 +156,7 @@ body 4x4mm, pitch 0.65mm</description>
 <attribute name="MP" value="FT230XQ-T"/>
 <attribute name="PACKAGE" value="QFN-16 FTDI"/>
 <attribute name="PRICE" value="None"/>
+<attribute name="VALUE" value="FT230X" constant="no"/>
 </technology>
 </technologies>
 </device>

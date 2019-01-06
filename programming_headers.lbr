@@ -210,7 +210,7 @@ VIDA Products INC</description>
 <pin name="9" x="-10.16" y="-5.08" visible="pin" length="middle"/>
 <pin name="2" x="10.16" y="5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="4" x="10.16" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="6" x="10.16" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="6" x="10.16" y="0" visible="pin" length="middle" direction="nc" rot="R180"/>
 <pin name="8" x="10.16" y="-2.54" visible="pin" length="middle" direction="nc" rot="R180"/>
 <pin name="10" x="10.16" y="-5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="5" x="-10.16" y="0" visible="pin" length="middle" direction="pwr"/>
@@ -221,7 +221,7 @@ VIDA Products INC</description>
 <text x="-11.684" y="-4.826" size="0.8128" layer="94">DEBUG_TX</text>
 <text x="5.588" y="5.334" size="0.8128" layer="94">SWDIO</text>
 <text x="5.588" y="2.794" size="0.8128" layer="94">SWCLK</text>
-<text x="5.588" y="0.254" size="0.8128" layer="94">SWO</text>
+<text x="5.588" y="0.254" size="0.8128" layer="94">NC</text>
 <text x="5.588" y="-2.286" size="0.8128" layer="94">NC</text>
 <text x="5.588" y="-4.826" size="0.8128" layer="94">!RESET</text>
 </symbol>
@@ -282,6 +282,7 @@ VIDA Products INC</description>
 <attribute name="MP" value="FTSH-105-01-L-DV-K-TR"/>
 <attribute name="PACKAGE" value="None"/>
 <attribute name="PRICE" value="2.27 USD"/>
+<attribute name="VALUE" value="CORTEX-SWD" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -299,7 +300,9 @@ VIDA Products INC</description>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="VALUE" value="TAGCON-SWD" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -331,6 +334,7 @@ VIDA Products INC</description>
 <attribute name="MP" value="FTSH-105-01-L-DV-K-TR"/>
 <attribute name="PACKAGE" value="None"/>
 <attribute name="PRICE" value="2.27 USD"/>
+<attribute name="VALUE" value="CORTEX-TPI" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -348,7 +352,9 @@ VIDA Products INC</description>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="VALUE" value="TAGCON-TPI" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
