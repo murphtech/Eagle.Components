@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -122,16 +122,16 @@
 </packages>
 <symbols>
 <symbol name="AP7380-50WR-7">
-<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.41" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.41" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.41" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.41" layer="94"/>
-<text x="-7.6526" y="6.1005" size="2.08661875" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-7.6367" y="-8.0773" size="2.08475" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-<pin name="VIN" x="-12.7" y="0" length="middle" direction="pwr"/>
-<pin name="NC" x="12.7" y="2.54" length="middle" direction="nc" rot="R180"/>
-<pin name="VOUT" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
-<pin name="GND" x="-12.7" y="2.54" length="middle" direction="pwr"/>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.6526" y="6.1005" size="1.778" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-7.6367" y="-8.0773" size="1.778" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="VIN" x="-12.7" y="2.54" length="middle" direction="pwr"/>
+<pin name="NC" x="12.7" y="-2.54" length="middle" direction="nc" rot="R180"/>
+<pin name="VOUT" x="12.7" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
 </symbol>
 <symbol name="SOT-223_LDO">
 <pin name="VIN" x="-12.446" y="1.27" length="middle" direction="pwr"/>
@@ -146,8 +146,8 @@
 </symbol>
 <symbol name="TLV713">
 <pin name="VIN" x="-12.7" y="2.54" length="middle" direction="pwr"/>
-<pin name="GND" x="-12.7" y="0" length="middle" direction="pwr"/>
-<pin name="EN" x="-12.7" y="-2.54" length="middle"/>
+<pin name="GND" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<pin name="EN" x="-12.7" y="0" length="middle"/>
 <pin name="VOUT" x="12.7" y="2.54" length="middle" direction="pwr" rot="R180"/>
 <pin name="NC" x="12.7" y="-2.54" length="middle" direction="nc" rot="R180"/>
 <wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
@@ -159,13 +159,13 @@
 </symbol>
 <symbol name="LP2985">
 <pin name="VIN" x="-12.7" y="2.54" length="middle" direction="pwr"/>
-<pin name="GND" x="-12.7" y="0" length="middle" direction="pwr"/>
-<pin name="EN" x="-12.7" y="-2.54" length="middle"/>
-<pin name="VOUT" x="12.7" y="2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="BYPASS" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<pin name="EN" x="-12.7" y="0" length="middle"/>
+<pin name="VOUT" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="BYPASS" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 <text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
