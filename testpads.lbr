@@ -82,7 +82,7 @@
 </packages>
 <symbols>
 <symbol name="TESTPAD">
-<pin name="TP" x="0" y="-2.54" visible="off" length="middle" rot="R90"/>
+<pin name="TP" x="0" y="0" visible="off" length="short" rot="R90"/>
 <wire x1="0" y1="2.54" x2="-1.016" y2="3.556" width="0.1524" layer="94"/>
 <wire x1="-1.016" y1="3.556" x2="0" y2="4.572" width="0.1524" layer="94"/>
 <wire x1="0" y1="4.572" x2="1.016" y2="3.556" width="0.1524" layer="94"/>
