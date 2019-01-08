@@ -126,6 +126,20 @@
 <rectangle x1="2.175" y1="-1.1" x2="2.825" y2="1.1" layer="51" rot="R180"/>
 <rectangle x1="-2.159" y1="-1.27" x2="-0.508" y2="1.27" layer="21"/>
 </package>
+<package name="SOD-323" urn="urn:adsk.eagle:footprint:30969/1" locally_modified="yes">
+<description>&lt;b&gt;Small Outline Diode&lt;/b&gt;</description>
+<wire x1="-0.8" y1="0.575" x2="0.8" y2="0.575" width="0.2032" layer="51"/>
+<wire x1="0.8" y1="0.575" x2="0.8" y2="-0.575" width="0.2032" layer="51"/>
+<wire x1="0.8" y1="-0.575" x2="-0.8" y2="-0.575" width="0.2032" layer="51"/>
+<wire x1="-0.8" y1="-0.575" x2="-0.8" y2="0.575" width="0.2032" layer="51"/>
+<smd name="C" x="-1.1" y="0" dx="1" dy="0.6" layer="1"/>
+<smd name="A" x="1.1" y="0" dx="1" dy="0.6" layer="1"/>
+<text x="-0.9" y="0.78" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-0.9" y="-1.551" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.35" y1="-0.2" x2="-0.9" y2="0.2" layer="51"/>
+<rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51"/>
+<rectangle x1="-0.75" y1="-0.575" x2="-0.375" y2="0.575" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAPACITOR">
@@ -355,6 +369,28 @@
 <technology name="">
 <attribute name="MF" value="Diodes Inc." constant="no"/>
 <attribute name="MP" value="B130-13-F" constant="no"/>
+<attribute name="VALUE" value="30V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAT54HT1G" prefix="D" uservalue="yes">
+<description>SCHOTTKY DIODE 30V 200mA SOD-323</description>
+<gates>
+<gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="ON Semiconductor"/>
+<attribute name="MP" value="BAT54HT1G"/>
+<attribute name="VALUE" value="30V" constant="no"/>
 </technology>
 </technologies>
 </device>
