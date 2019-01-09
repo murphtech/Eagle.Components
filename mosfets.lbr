@@ -78,7 +78,7 @@
 <smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1" roundness="25"/>
 <smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1" roundness="25"/>
 <smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1" roundness="25"/>
-<text x="-1.90881875" y="-2.79018125" size="0.8128" layer="27">&gt;MP</text>
+<text x="-1.90881875" y="-2.79018125" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
 <package name="DPAK228P994X241-3N">
 <wire x1="-3.37" y1="4.171" x2="3.37" y2="4.171" width="0.127" layer="51"/>
@@ -103,7 +103,7 @@
 <wire x1="-3.62" y1="4.43" x2="-3.09" y2="4.43" width="0.05" layer="39"/>
 <wire x1="-3.09" y1="4.43" x2="-3.09" y2="5.85" width="0.05" layer="39"/>
 <text x="-3.81798125" y="-2.54" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
-<text x="4.58646875" y="-2.54" size="0.8128" layer="27" rot="R90">&gt;MP</text>
+<text x="4.58646875" y="-2.54" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-0.646465625" y1="1.383140625" x2="0.645" y2="3.04" layer="31"/>
 <rectangle x1="-0.646259375" y1="3.647109375" x2="0.645" y2="5.3" layer="31"/>
 <rectangle x1="-0.645575" y1="-0.880784375" x2="0.645" y2="0.78" layer="31"/>
@@ -124,6 +124,27 @@
 <wire x1="-5" y1="4" x2="-5" y2="2" width="0.127" layer="21"/>
 <wire x1="-5" y1="2" x2="5" y2="2" width="0.127" layer="21"/>
 <wire x1="5" y1="2" x2="5" y2="4" width="0.127" layer="21"/>
+</package>
+<package name="POWERPAK-1212-8">
+<wire x1="-1.65" y1="1.65" x2="1.65" y2="1.65" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="-1.65" x2="1.65" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="1.65" x2="-1.65" y2="-1.65" width="0.127" layer="51"/>
+<wire x1="1.65" y1="1.65" x2="1.65" y2="-1.65" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="1.9" x2="2.2" y2="1.9" width="0.05" layer="39"/>
+<wire x1="2.2" y1="1.9" x2="2.2" y2="-1.9" width="0.05" layer="39"/>
+<wire x1="2.2" y1="-1.9" x2="-2.2" y2="-1.9" width="0.05" layer="39"/>
+<wire x1="-2.2" y1="-1.9" x2="-2.2" y2="1.9" width="0.05" layer="39"/>
+<text x="-2.286" y="2.032" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2.286" y="-2.794" size="0.8128" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.435" y="0.99" dx="0.99" dy="0.41" layer="1" roundness="25"/>
+<smd name="2" x="-1.435" y="0.33" dx="0.99" dy="0.41" layer="1" roundness="25"/>
+<smd name="3" x="-1.435" y="-0.33" dx="0.99" dy="0.41" layer="1" roundness="25"/>
+<smd name="4" x="-1.435" y="-0.99" dx="0.99" dy="0.41" layer="1" roundness="25"/>
+<smd name="5" x="1.55" y="-0.99" dx="0.76" dy="0.41" layer="1" rot="R180"/>
+<smd name="6" x="1.55" y="-0.33" dx="0.76" dy="0.41" layer="1" rot="R180"/>
+<smd name="7" x="1.55" y="0.33" dx="0.76" dy="0.41" layer="1" rot="R180"/>
+<smd name="8" x="1.55" y="0.99" dx="0.76" dy="0.41" layer="1" rot="R180"/>
+<smd name="9" x="0.5575" y="0" dx="1.725" dy="2.38963125" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -148,7 +169,7 @@
 <wire x1="3.302" y1="0.508" x2="3.048" y2="0.254" width="0.1524" layer="94"/>
 <circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
 <circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
-<text x="-11.43" y="0" size="1.778" layer="96">&gt;MP</text>
+<text x="-11.43" y="0" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-11.43" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
@@ -185,7 +206,7 @@
 <wire x1="4.318" y1="0.508" x2="4.572" y2="0.254" width="0.1524" layer="94"/>
 <circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
 <circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
-<text x="-11.43" y="-3.81" size="1.778" layer="96">&gt;MP</text>
+<text x="-11.43" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-11.43" y="-1.27" size="1.778" layer="95">&gt;NAME</text>
 <pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="G" x="-2.54" y="2.54" visible="off" length="short" direction="pas"/>
@@ -219,6 +240,7 @@
 <technology name="">
 <attribute name="MF" value="Diodes Inc."/>
 <attribute name="MP" value="DMN3023L"/>
+<attribute name="VALUE" value="DMN3023L" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -240,6 +262,7 @@
 <technology name="">
 <attribute name="MF" value="Diodes Inc."/>
 <attribute name="MP" value="DMP3099L7"/>
+<attribute name="VALUE" value="DMP3099L7" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -258,6 +281,28 @@
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIS467DN-T1-GE3" prefix="Q" uservalue="yes">
+<description>N-Channel 30V 40A (Tc) 3.7W (Ta), 52W (Tc) Surface Mount PowerPAK® 1212-8</description>
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWERPAK-1212-8">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8 9"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Vishay Siliconix"/>
+<attribute name="MP" value="SIS476DN-T1-GE3"/>
+<attribute name="VALUE" value="SIS476DN-T1-GE3" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

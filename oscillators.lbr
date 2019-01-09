@@ -103,7 +103,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ABM8-48.000MHZ-B2-T" prefix="Y">
+<deviceset name="ABM8-48.000MHZ-B2-T" prefix="Y" uservalue="yes">
 <description>Crystal 20MHz Â±20ppm (Tol) Â±30ppm (Stability) 18pF FUND 80Ohm 4-Pin Mini-CSMD T/R</description>
 <gates>
 <gate name="G$1" symbol="ABM8-48.000MHZ-B2-T" x="0" y="0"/>
@@ -117,12 +117,9 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Good"/>
-<attribute name="DESCRIPTION" value=" ABM8 Series 48 MHz ±20 ppm 18 pF -20 to +70 °C Ultra Miniature Ceramic Crystal "/>
 <attribute name="MF" value="Abracon"/>
 <attribute name="MP" value="ABM8-48.000MHZ-B2-T"/>
-<attribute name="PACKAGE" value="SMD-4 Abracon"/>
-<attribute name="PRICE" value="0.49 USD"/>
+<attribute name="VALUE" value="ABM8-48MHZ-B2-T" constant="no"/>
 </technology>
 </technologies>
 </device>
