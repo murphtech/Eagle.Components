@@ -184,6 +184,9 @@
 <vertex x="2.032" y="0.762"/>
 <vertex x="2.032" y="-0.762"/>
 </polygon>
+<text x="2.794" y="3.302" size="1.016" layer="94">D</text>
+<text x="2.794" y="-4.064" size="1.016" layer="94">S</text>
+<text x="-1.27" y="-2.286" size="1.016" layer="94">G</text>
 </symbol>
 <symbol name="P-MOSFET">
 <wire x1="0.762" y1="-0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
@@ -221,6 +224,9 @@
 <vertex x="1.524" y="0.762"/>
 <vertex x="1.524" y="-0.762"/>
 </polygon>
+<text x="2.794" y="3.556" size="1.016" layer="94">S</text>
+<text x="2.794" y="-4.318" size="1.016" layer="94">D</text>
+<text x="-1.27" y="2.794" size="1.016" layer="94">G</text>
 </symbol>
 </symbols>
 <devicesets>
