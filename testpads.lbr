@@ -87,11 +87,11 @@
 <wire x1="-1.016" y1="3.556" x2="0" y2="4.572" width="0.1524" layer="94"/>
 <wire x1="0" y1="4.572" x2="1.016" y2="3.556" width="0.1524" layer="94"/>
 <wire x1="1.016" y1="3.556" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<text x="0" y="5.08" size="1.016" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="5.08" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
 </symbol>
 <symbol name="INLINE_TP">
 <pin name="1" x="0" y="0" visible="off" length="point"/>
-<text x="0" y="0.254" size="1.016" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="0.254" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
 <circle x="0" y="0" radius="0.508" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
