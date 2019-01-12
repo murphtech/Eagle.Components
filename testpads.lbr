@@ -96,7 +96,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="IND_ROUND" prefix="TP" uservalue="yes">
+<deviceset name="IND_ROUND" prefix="TP">
 <gates>
 <gate name="G$1" symbol="IND_TP" x="0" y="0"/>
 </gates>
@@ -119,7 +119,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="IND_SQUARE" prefix="TP" uservalue="yes">
+<deviceset name="IND_SQUARE" prefix="TP">
 <gates>
 <gate name="G$1" symbol="IND_TP" x="0" y="0"/>
 </gates>
@@ -158,7 +158,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="INLINE_ROUND" prefix="TP" uservalue="yes">
+<deviceset name="INLINE_ROUND" prefix="TP">
 <gates>
 <gate name="G$1" symbol="INLINE_TP" x="0" y="0"/>
 </gates>
@@ -181,7 +181,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="INLINE_SQUARE" prefix="TP" uservalue="yes">
+<deviceset name="INLINE_SQUARE" prefix="TP">
 <gates>
 <gate name="G$1" symbol="INLINE_TP" x="0" y="0"/>
 </gates>
