@@ -252,8 +252,8 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="DMP3099L7" prefix="Q" uservalue="yes">
-<description>P-Channel FET</description>
+<deviceset name="DMP3099L-7" prefix="Q" uservalue="yes">
+<description>MOSFET P-CH 30V SOT23</description>
 <gates>
 <gate name="G$1" symbol="P-MOSFET" x="-2.54" y="0"/>
 </gates>
@@ -308,6 +308,28 @@
 <attribute name="MF" value="Vishay Siliconix"/>
 <attribute name="MP" value="SIS476DN-T1-GE3"/>
 <attribute name="VALUE" value="SIS476DN-T1-GE3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DMP510DL-7" prefix="Q" uservalue="yes">
+<description>MOSFET P-CH 50V 0.18A SOT23</description>
+<gates>
+<gate name="G$1" symbol="P-MOSFET" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Diodes Inc." constant="no"/>
+<attribute name="MP" value="DMP510DL-7" constant="no"/>
+<attribute name="VALUE" value="DMP510DL-7" constant="no"/>
 </technology>
 </technologies>
 </device>
