@@ -425,12 +425,12 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="0603YC" prefix="C" uservalue="yes">
-<description>M0603 Ceramic Capacitor - 16V</description>
+<description>16V Ceramic Capacitor X7R 0603</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="104K" package="M0603">
+<device name="104KAT2A" package="M0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -438,7 +438,7 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="MF" value="AVX" constant="no"/>
-<attribute name="MP" value="0603YC104K" constant="no"/>
+<attribute name="MP" value="0603YC104KAT2A" constant="no"/>
 <attribute name="VALUE" value="0.1uF" constant="no"/>
 </technology>
 </technologies>
@@ -446,12 +446,12 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="06033C" prefix="C" uservalue="yes">
-<description>M0603 Ceramic Capacitor - 25V</description>
+<description>25V Ceramic Capacitor X5R 0603</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="105K" package="M0603">
+<device name="105KAT2A" package="M0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -459,7 +459,7 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="MF" value="AVX" constant="no"/>
-<attribute name="MP" value="06033C105K" constant="no"/>
+<attribute name="MP" value="06033D105KAT2A" constant="no"/>
 <attribute name="VALUE" value="1uF" constant="no"/>
 </technology>
 </technologies>
