@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -275,7 +275,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SIS467DN-T1-GE3" prefix="Q" uservalue="yes">
+<deviceset name="SIS476DN-T1-GE3" prefix="Q" uservalue="yes">
 <description>N-Channel 30V 40A (Tc) 3.7W (Ta), 52W (Tc) Surface Mount PowerPAK® 1212-8</description>
 <gates>
 <gate name="G$1" symbol="N-MOSFET" x="-2.54" y="0"/>
