@@ -653,7 +653,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATSAME70N19A-AN">
+<deviceset name="ATSAME70N19A-AN" prefix="U" uservalue="yes">
 <description>ARM® Cortex®-M7 SAM E70 Microcontroller IC 32-Bit 300MHz 512KB (512K x 8) FLASH 100-LQFP (14x14)</description>
 <gates>
 <gate name="G$1" symbol="ATSAME70N19A-AN" x="2.54" y="0"/>
