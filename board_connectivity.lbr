@@ -237,7 +237,8 @@
 <pin name="D-" x="-5.08" y="2.54" length="middle"/>
 <pin name="D+" x="-5.08" y="0" length="middle"/>
 <pin name="ID" x="-5.08" y="-2.54" length="middle"/>
-<pin name="GND" x="-5.08" y="-5.08" length="middle" direction="pas"/>
+<pin name="GND" x="-5.08" y="-5.08" length="middle" direction="pwr"/>
+<pin name="SHIELD" x="-5.08" y="-7.62" length="middle"/>
 </symbol>
 <symbol name="10_POS">
 <circle x="0" y="11.43" radius="0.508" width="0.254" layer="94"/>
@@ -350,8 +351,9 @@
 <connects>
 <connect gate="G$1" pin="D+" pad="3"/>
 <connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5 P1 P2 P3 P4 P5 P6"/>
+<connect gate="G$1" pin="GND" pad="5"/>
 <connect gate="G$1" pin="ID" pad="4"/>
+<connect gate="G$1" pin="SHIELD" pad="P1 P2 P3 P4 P5 P6"/>
 <connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <technologies>
