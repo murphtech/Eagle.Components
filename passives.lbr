@@ -647,6 +647,11 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 </gates>
 <devices>
 <device name="" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
 <technologies>
 <technology name="">
 <attribute name="MF" value="ON Semiconductors" constant="no"/>
