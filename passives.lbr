@@ -165,15 +165,6 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 <smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1" roundness="25"/>
 <text x="-1.90881875" y="-2.79018125" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
-<package name="3-XFDFN">
-<smd name="3" x="0.125" y="0.5" dx="0.2" dy="0.2" layer="1" roundness="25"/>
-<smd name="2" x="0.125" y="-0.5" dx="0.2" dy="0.2" layer="1" roundness="25"/>
-<smd name="1" x="-0.125" y="0" dx="0.2" dy="0.2" layer="1" roundness="25"/>
-<wire x1="-0.3" y1="0.65" x2="0.3" y2="0.65" width="0.05" layer="21"/>
-<wire x1="-0.3" y1="-0.65" x2="0.3" y2="-0.65" width="0.05" layer="21"/>
-<text x="-0.381" y="0.762" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-0.381" y="-1.524" size="0.8128" layer="25">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="CAPACITOR">
@@ -386,7 +377,7 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SMAJ16CA-13-F" prefix="D" uservalue="yes">
+<deviceset name="SMAJ16CA-13-F" prefix="TVS" uservalue="yes">
 <description>BIDIRECTIONAL TVS DIODE 16V 26V SMA</description>
 <gates>
 <gate name="G$1" symbol="BIDIRECTIONAL_ZENER" x="0" y="0"/>
@@ -517,7 +508,7 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SMAJ6.0CA-13-F" prefix="D" uservalue="yes">
+<deviceset name="SMAJ6.0CA-13-F" prefix="TVS" uservalue="yes">
 <description>BIDIRECTIONAL TVS DIODE 6V 10.3V SMA</description>
 <gates>
 <gate name="G$1" symbol="BIDIRECTIONAL_ZENER" x="0" y="0"/>
@@ -640,7 +631,7 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NUP2105L" prefix="D" uservalue="yes">
+<deviceset name="NUP2105L" prefix="TVS" uservalue="yes">
 <description>TVS DIODE 24V 44V SOT23-3</description>
 <gates>
 <gate name="G$1" symbol="SOT23-3_BIDIRECTIONAL_TVS" x="0" y="0"/>
@@ -662,23 +653,21 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESD122DMYR" prefix="D" uservalue="yes">
-<description>TVS DIODE 3.6V 8.4V 3X2SON</description>
+<deviceset name="RCLAMP3521P.TNT" prefix="TVS" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="SOT23-3_BIDIRECTIONAL_TVS" x="0" y="0"/>
+<gate name="G$1" symbol="BIDIRECTIONAL_ZENER" x="-1.27" y="0"/>
 </gates>
 <devices>
-<device name="" package="3-XFDFN">
+<device name="" package="M0402">
 <connects>
-<connect gate="G$1" pin="1" pad="3"/>
+<connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="1"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="Texas Instruments" constant="no"/>
-<attribute name="MP" value="ESD122DMYR" constant="no"/>
-<attribute name="VALUE" value="3.6V" constant="no"/>
+<attribute name="MF" value="Semtech" constant="no"/>
+<attribute name="MP" value="RCLAMP3521P.TNT" constant="no"/>
+<attribute name="VALUE" value="3.5" constant="no"/>
 </technology>
 </technologies>
 </device>
