@@ -654,6 +654,7 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="RCLAMP3521P.TNT" prefix="TVS" uservalue="yes">
+<description>TVS DIODE 3.5V 13V SLP1006P2</description>
 <gates>
 <gate name="G$1" symbol="BIDIRECTIONAL_ZENER" x="-1.27" y="0"/>
 </gates>
@@ -667,7 +668,83 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 <technology name="">
 <attribute name="MF" value="Semtech" constant="no"/>
 <attribute name="MP" value="RCLAMP3521P.TNT" constant="no"/>
-<attribute name="VALUE" value="3.5" constant="no"/>
+<attribute name="VALUE" value="3.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRG0603F" prefix="R" uservalue="yes">
+<description>RES SMD 1M OHM 1% 1/10W 0603</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1M" package="M0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="TE Connectivity" constant="no"/>
+<attribute name="MP" value="CRG0603F1M" constant="no"/>
+<attribute name="VALUE" value="1M" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C0603C" prefix="C" uservalue="yes">
+<description>CAP CER 0603 16V X7R</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="1.27"/>
+</gates>
+<devices>
+<device name="472K4RACTU" package="M0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Kemet" constant="no"/>
+<attribute name="MP" value="C0603C472K4RACTU" constant="no"/>
+<attribute name="VALUE" value="4.7nF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="220M4RACAUTO" package="M0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Kemet" constant="no"/>
+<attribute name="MP" value="C0603C220M4RACAUTO" constant="no"/>
+<attribute name="VALUE" value="22pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM188R61C" prefix="C" uservalue="yes">
+<description>CAP CER 16V X5R 0603</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="1.27"/>
+</gates>
+<devices>
+<device name="106KAALD" package="M0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Murata" constant="no"/>
+<attribute name="MP" value="GRM188R61C106KAALD" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
 </technology>
 </technologies>
 </device>
