@@ -464,6 +464,19 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 </technology>
 </technologies>
 </device>
+<device name="-101-B-T5" package="M0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Susumu" constant="no"/>
+<attribute name="MP" value="RG1608P-101-B-T5" constant="no"/>
+<attribute name="VALUE" value="100" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="0603YC" prefix="C" uservalue="yes">
