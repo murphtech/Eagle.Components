@@ -443,6 +443,19 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 </technology>
 </technologies>
 </device>
+<device name="-561-D" package="M0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Susumu" constant="no"/>
+<attribute name="MP" value="RR0816P-561-D" constant="no"/>
+<attribute name="VALUE" value="560" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RG1608P" prefix="R" uservalue="yes">
