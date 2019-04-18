@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -155,6 +155,80 @@
 <pad name="9" x="-3" y="3" drill="1.02"/>
 <pad name="10" x="-6" y="3" drill="1.02"/>
 </package>
+<package name="AMPHENOL_12401598E4#2A">
+<wire x1="-4.74" y1="-7.5" x2="-4.74" y2="-6.9" width="0.0001" layer="46"/>
+<wire x1="-4.74" y1="-6.9" x2="-4.24" y2="-6.9" width="0.0001" layer="46" curve="-180"/>
+<wire x1="-4.24" y1="-6.9" x2="-4.24" y2="-7.5" width="0.0001" layer="46"/>
+<wire x1="-4.24" y1="-7.5" x2="-4.74" y2="-7.5" width="0.0001" layer="46" curve="-180"/>
+<wire x1="4.24" y1="-7.5" x2="4.24" y2="-6.9" width="0.0001" layer="46"/>
+<wire x1="4.24" y1="-6.9" x2="4.74" y2="-6.9" width="0.0001" layer="46" curve="-180"/>
+<wire x1="4.74" y1="-6.9" x2="4.74" y2="-7.5" width="0.0001" layer="46"/>
+<wire x1="4.74" y1="-7.5" x2="4.24" y2="-7.5" width="0.0001" layer="46" curve="-180"/>
+<wire x1="3.88" y1="-1.55" x2="3.88" y2="-0.95" width="0.0001" layer="46"/>
+<wire x1="3.88" y1="-0.95" x2="4.38" y2="-0.95" width="0.0001" layer="46" curve="-180"/>
+<wire x1="4.38" y1="-0.95" x2="4.38" y2="-1.55" width="0.0001" layer="46"/>
+<wire x1="4.38" y1="-1.55" x2="3.88" y2="-1.55" width="0.0001" layer="46" curve="-180"/>
+<wire x1="-4.38" y1="-1.55" x2="-4.38" y2="-0.95" width="0.0001" layer="46"/>
+<wire x1="-4.38" y1="-0.95" x2="-3.88" y2="-0.95" width="0.0001" layer="46" curve="-180"/>
+<wire x1="-3.88" y1="-0.95" x2="-3.88" y2="-1.55" width="0.0001" layer="46"/>
+<wire x1="-3.88" y1="-1.55" x2="-4.38" y2="-1.55" width="0.0001" layer="46" curve="-180"/>
+<wire x1="3.45" y1="0.325" x2="3.75" y2="0.325" width="0.0001" layer="46"/>
+<wire x1="3.75" y1="0.325" x2="3.75" y2="-0.325" width="0.0001" layer="46" curve="-180"/>
+<wire x1="3.75" y1="-0.325" x2="3.45" y2="-0.325" width="0.0001" layer="46"/>
+<wire x1="3.45" y1="-0.325" x2="3.45" y2="0.325" width="0.0001" layer="46" curve="-180"/>
+<wire x1="-4.5" y1="-9.59" x2="-4.5" y2="0.91" width="0.127" layer="51"/>
+<wire x1="-4.5" y1="0.91" x2="4.5" y2="0.91" width="0.127" layer="51"/>
+<wire x1="4.5" y1="0.91" x2="4.5" y2="-9.59" width="0.127" layer="51"/>
+<wire x1="4.5" y1="-9.59" x2="-4.5" y2="-9.59" width="0.127" layer="51"/>
+<wire x1="-3.08" y1="0.91" x2="-4.5" y2="0.91" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="0.91" x2="-4.5" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-2.12" x2="-4.5" y2="-6.22" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-8.19" x2="-4.5" y2="-9.59" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-9.59" x2="4.5" y2="-9.59" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-9.59" x2="4.5" y2="-8.18" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-6.21" x2="4.5" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-0.38" x2="4.5" y2="0.91" width="0.127" layer="21"/>
+<wire x1="4.5" y1="0.91" x2="3.08" y2="0.91" width="0.127" layer="21"/>
+<wire x1="-5.14" y1="-9.84" x2="-5.14" y2="1.26" width="0.05" layer="39"/>
+<wire x1="-5.14" y1="1.26" x2="5.14" y2="1.26" width="0.05" layer="39"/>
+<wire x1="5.14" y1="1.26" x2="5.14" y2="-9.84" width="0.05" layer="39"/>
+<wire x1="5.14" y1="-9.84" x2="-5.14" y2="-9.84" width="0.05" layer="39"/>
+<text x="-5.334" y="-2.54" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.096" y="-2.54" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-2.60288125" y="1.20133125" size="0.40685" layer="51" rot="R90">A1</text>
+<text x="2.90285" y="1.20118125" size="0.4068" layer="51" rot="R90">A12</text>
+<text x="-2.901609375" y="-2.601440625" size="0.406625" layer="51" rot="R90">B12</text>
+<text x="2.703759375" y="-2.3032" size="0.406965625" layer="51" rot="R90">B1</text>
+<pad name="SH2" x="-4.49" y="-7.2" drill="0.5" diameter="0.8" shape="long" rot="R90"/>
+<smd name="A1" x="-2.75" y="0.66" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="B1" x="2.5" y="-1.04" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="B2" x="2" y="-1.04" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="B3" x="1.5" y="-1.04" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="B4" x="1" y="-1.04" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="B5" x="0.5" y="-1.04" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="B6" x="0" y="-1.04" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="B7" x="-0.5" y="-1.04" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="B8" x="-1" y="-1.04" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="B9" x="-1.5" y="-1.04" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="B10" x="-2" y="-1.04" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="B11" x="-2.5" y="-1.04" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="B12" x="-3" y="-1.04" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="A2" x="-2.25" y="0.66" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="A3" x="-1.75" y="0.66" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="A4" x="-1.25" y="0.66" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="A5" x="-0.75" y="0.66" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="A6" x="-0.25" y="0.66" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="A7" x="0.25" y="0.66" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="A8" x="0.75" y="0.66" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="A9" x="1.25" y="0.66" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="A10" x="1.75" y="0.66" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="A11" x="2.25" y="0.66" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<smd name="A12" x="2.75" y="0.66" dx="0.7" dy="0.3" layer="1" roundness="25" rot="R90"/>
+<hole x="-3.6" y="0" drill="0.65"/>
+<pad name="SH3" x="4.49" y="-7.2" drill="0.5" diameter="0.8" shape="long" rot="R90"/>
+<pad name="SH4" x="4.13" y="-1.25" drill="0.5" diameter="0.8" shape="long" rot="R90"/>
+<pad name="SH1" x="-4.13" y="-1.25" drill="0.5" diameter="0.8" shape="long" rot="R90"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="43045-0400" urn="urn:adsk.eagle:package:7708458/1" locally_modified="yes" type="box">
@@ -289,6 +363,33 @@
 <wire x1="-2.54" y1="-8.89" x2="-0.508" y2="-8.89" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="-11.43" x2="-0.508" y2="-11.43" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="TYPE_C_USB">
+<wire x1="7.62" y1="33.02" x2="7.62" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-33.02" x2="-7.62" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-33.02" x2="-7.62" y2="33.02" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="33.02" x2="7.62" y2="33.02" width="0.254" layer="94"/>
+<text x="-7.631990625" y="33.326" size="1.272" layer="95">&gt;NAME</text>
+<text x="-7.63355" y="-34.6072" size="1.272259375" layer="96">&gt;VALUE</text>
+<pin name="VBUS" x="12.7" y="30.48" length="middle" direction="pas" rot="R180"/>
+<pin name="SHIELD" x="12.7" y="-30.48" length="middle" direction="pas" rot="R180"/>
+<pin name="DN1" x="12.7" y="25.4" length="middle" direction="pas" rot="R180"/>
+<pin name="DP1" x="12.7" y="22.86" length="middle" direction="pas" rot="R180"/>
+<pin name="DN2" x="12.7" y="17.78" length="middle" direction="pas" rot="R180"/>
+<pin name="DP2" x="12.7" y="15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="GND" x="12.7" y="-25.4" length="middle" direction="pas" rot="R180"/>
+<pin name="SSRXN1" x="12.7" y="10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="SSRXP1" x="12.7" y="7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="SSTXN1" x="12.7" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="SSTXP1" x="12.7" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="CC1" x="12.7" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="SBU1" x="12.7" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="SSRXN2" x="12.7" y="-7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="SSRXP2" x="12.7" y="-10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="SSTXN2" x="12.7" y="-12.7" length="middle" direction="pas" rot="R180"/>
+<pin name="SSTXP2" x="12.7" y="-15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="CC2" x="12.7" y="-17.78" length="middle" direction="pas" rot="R180"/>
+<pin name="SBU2" x="12.7" y="-20.32" length="middle" direction="pas" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MOLEX_MICROFIT_2X2" urn="urn:adsk.eagle:component:7708460/1" locally_modified="yes" prefix="J" uservalue="yes">
@@ -390,6 +491,44 @@
 <attribute name="MF" value="Molex" constant="no"/>
 <attribute name="MP" value="43045-1000" constant="no"/>
 <attribute name="VALUE" value="43045-1000" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AMPHENOL_TYPEC_USB" prefix="J" uservalue="yes">
+<description>Usb Jack 3.1, C Type, 24 Pin, Ho</description>
+<gates>
+<gate name="G$1" symbol="TYPE_C_USB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AMPHENOL_12401598E4#2A">
+<connects>
+<connect gate="G$1" pin="CC1" pad="A5"/>
+<connect gate="G$1" pin="CC2" pad="B5"/>
+<connect gate="G$1" pin="DN1" pad="A7"/>
+<connect gate="G$1" pin="DN2" pad="B7"/>
+<connect gate="G$1" pin="DP1" pad="A6"/>
+<connect gate="G$1" pin="DP2" pad="B6"/>
+<connect gate="G$1" pin="GND" pad="A1 A12 B1 B12"/>
+<connect gate="G$1" pin="SBU1" pad="A8"/>
+<connect gate="G$1" pin="SBU2" pad="B8"/>
+<connect gate="G$1" pin="SHIELD" pad="SH1 SH2 SH3 SH4"/>
+<connect gate="G$1" pin="SSRXN1" pad="B10"/>
+<connect gate="G$1" pin="SSRXN2" pad="A10"/>
+<connect gate="G$1" pin="SSRXP1" pad="B11"/>
+<connect gate="G$1" pin="SSRXP2" pad="A11"/>
+<connect gate="G$1" pin="SSTXN1" pad="A3"/>
+<connect gate="G$1" pin="SSTXN2" pad="B3"/>
+<connect gate="G$1" pin="SSTXP1" pad="A2"/>
+<connect gate="G$1" pin="SSTXP2" pad="B2"/>
+<connect gate="G$1" pin="VBUS" pad="A4 A9 B4 B9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Amphenol ICC"/>
+<attribute name="MP" value="12401598E4#2A"/>
+<attribute name="VALUE" value="12401598E4#2A" constant="no"/>
 </technology>
 </technologies>
 </device>
