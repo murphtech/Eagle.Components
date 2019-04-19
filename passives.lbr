@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -154,6 +154,16 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 <text x="-2.286" y="-7.493" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-2.159" y="6.858" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
 <circle x="-5.6642" y="6.4262" radius="0.091578125" width="0.2" layer="21"/>
+</package>
+<package name="SOT-23-3">
+<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
+<wire x1="1.5494" y1="0.6604" x2="1.5494" y2="-0.6604" width="0.127" layer="21"/>
+<wire x1="-1.5494" y1="-0.6604" x2="-1.5494" y2="0.6604" width="0.127" layer="21"/>
+<text x="-1.90881875" y="1.90881875" size="0.8128" layer="25">&gt;NAME</text>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1" roundness="25"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1" roundness="25"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1" roundness="25"/>
+<text x="-1.90881875" y="-2.79018125" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -333,9 +343,41 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 <wire x1="3.81" y1="-12.7" x2="-3.81" y2="-12.7" width="0.127" layer="94"/>
 <wire x1="-3.81" y1="-12.7" x2="-3.81" y2="15.24" width="0.127" layer="94"/>
 </symbol>
+<symbol name="SOT23-3_BIDIRECTIONAL_TVS">
+<wire x1="-1.27" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-3.81" x2="0.635" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<text x="-3.302" y="4.191" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.556" y="-5.461" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.905" y1="3.81" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="0.635" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="3.81" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<pin name="3" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="1" x="5.08" y="2.54" visible="off" length="middle" rot="R180"/>
+<pin name="2" x="5.08" y="-2.54" visible="off" length="middle" rot="R180"/>
+<wire x1="1.27" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="SMAJ16CA-13-F" prefix="D" uservalue="yes">
+<deviceset name="SMAJ16CA-13-F" prefix="TVS" uservalue="yes">
 <description>BIDIRECTIONAL TVS DIODE 16V 26V SMA</description>
 <gates>
 <gate name="G$1" symbol="BIDIRECTIONAL_ZENER" x="0" y="0"/>
@@ -401,6 +443,19 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 </technology>
 </technologies>
 </device>
+<device name="-561-D" package="M0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Susumu" constant="no"/>
+<attribute name="MP" value="RR0816P-561-D" constant="no"/>
+<attribute name="VALUE" value="560" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RG1608P" prefix="R" uservalue="yes">
@@ -419,6 +474,19 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 <attribute name="MF" value="Susumu" constant="no"/>
 <attribute name="MP" value="RG1608P-121-B-T5" constant="no"/>
 <attribute name="VALUE" value="120" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-101-B-T5" package="M0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Susumu" constant="no"/>
+<attribute name="MP" value="RG1608P-101-B-T5" constant="no"/>
+<attribute name="VALUE" value="100" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -466,7 +534,7 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SMAJ6.0CA-13-F" prefix="D" uservalue="yes">
+<deviceset name="SMAJ6.0CA-13-F" prefix="TVS" uservalue="yes">
 <description>BIDIRECTIONAL TVS DIODE 6V 10.3V SMA</description>
 <gates>
 <gate name="G$1" symbol="BIDIRECTIONAL_ZENER" x="0" y="0"/>
@@ -563,6 +631,146 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 <attribute name="MF" value="Bourns" constant="no"/>
 <attribute name="MP" value="4820P-1-102LF" constant="no"/>
 <attribute name="VALUE" value="10x 1K" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL10A" prefix="C" uservalue="yes">
+<description>CAP CER 4.7UF 16V X5R 0603</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="1.27"/>
+</gates>
+<devices>
+<device name="475KO8NNNC" package="M0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Samsung" constant="no"/>
+<attribute name="MP" value="CL10A475KO8NNNC" constant="no"/>
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NUP2105L" prefix="TVS" uservalue="yes">
+<description>TVS DIODE 24V 44V SOT23-3</description>
+<gates>
+<gate name="G$1" symbol="SOT23-3_BIDIRECTIONAL_TVS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="ON Semiconductors" constant="no"/>
+<attribute name="MP" value="NUP2105L" constant="no"/>
+<attribute name="VALUE" value="24V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RCLAMP3521P.TNT" prefix="TVS" uservalue="yes">
+<description>TVS DIODE 3.5V 13V SLP1006P2</description>
+<gates>
+<gate name="G$1" symbol="BIDIRECTIONAL_ZENER" x="-1.27" y="0"/>
+</gates>
+<devices>
+<device name="" package="M0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Semtech" constant="no"/>
+<attribute name="MP" value="RCLAMP3521P.TNT" constant="no"/>
+<attribute name="VALUE" value="3.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRG0603F" prefix="R" uservalue="yes">
+<description>RES SMD 1M OHM 1% 1/10W 0603</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1M" package="M0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="TE Connectivity" constant="no"/>
+<attribute name="MP" value="CRG0603F1M" constant="no"/>
+<attribute name="VALUE" value="1M" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C0603C" prefix="C" uservalue="yes">
+<description>CAP CER 0603 16V X7R</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="1.27"/>
+</gates>
+<devices>
+<device name="472K4RACTU" package="M0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Kemet" constant="no"/>
+<attribute name="MP" value="C0603C472K4RACTU" constant="no"/>
+<attribute name="VALUE" value="4.7nF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="220M4RACAUTO" package="M0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Kemet" constant="no"/>
+<attribute name="MP" value="C0603C220M4RACAUTO" constant="no"/>
+<attribute name="VALUE" value="22pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM188R61C" prefix="C" uservalue="yes">
+<description>CAP CER 16V X5R 0603</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="1.27"/>
+</gates>
+<devices>
+<device name="106KAALD" package="M0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Murata" constant="no"/>
+<attribute name="MP" value="GRM188R61C106KAALD" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
 </technology>
 </technologies>
 </device>

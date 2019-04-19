@@ -105,7 +105,7 @@
 <smd name="8" x="1.27" y="2.032" dx="0.762" dy="2.794" layer="1" roundness="25"/>
 <smd name="9" x="2.54" y="-2.032" dx="0.762" dy="2.794" layer="1" roundness="25"/>
 <smd name="10" x="2.54" y="2.032" dx="0.762" dy="2.794" layer="1" roundness="25"/>
-<wire x1="-1.905" y1="-3.81" x2="1.905" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-4.191" x2="1.524" y2="-4.191" width="0.254" layer="21"/>
 </package>
 <package name="TC2030-MCP-NL">
 <description>&lt;B&gt;TAG-CONNECT ISP Connector&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;&lt;I&gt;Manufacturer:&lt;/I&gt; &lt;a href="www.tag-connect.com"&gt;Tag-Connect&lt;/a&gt;&lt;BR&gt;

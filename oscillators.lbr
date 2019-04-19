@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -78,7 +78,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="ABM8-48.000MHZ-B2-T">
+<symbol name="4PAD_OSCILLATOR">
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.127" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.127" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.127" layer="94"/>
@@ -102,9 +102,9 @@
 </symbols>
 <devicesets>
 <deviceset name="ABM8-48.000MHZ-B2-T" prefix="Y" uservalue="yes">
-<description>Crystal 20MHz Â±20ppm (Tol) Â±30ppm (Stability) 18pF FUND 80Ohm 4-Pin Mini-CSMD T/R</description>
+<description>48MHz ±20ppm Crystal 18pF 35 Ohms 4-SMD, No Lead</description>
 <gates>
-<gate name="G$1" symbol="ABM8-48.000MHZ-B2-T" x="0" y="0"/>
+<gate name="G$1" symbol="4PAD_OSCILLATOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="OSCSC320X250X100N">
@@ -118,6 +118,28 @@
 <attribute name="MF" value="Abracon"/>
 <attribute name="MP" value="ABM8-48.000MHZ-B2-T"/>
 <attribute name="VALUE" value="ABM8-48MHZ-B2-T" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ABM3B-12.000MHZ-B2-T" prefix="Y" uservalue="yes">
+<description>12MHz ±20ppm Crystal 18pF 70 Ohms 4-SMD, No Lead</description>
+<gates>
+<gate name="G$1" symbol="4PAD_OSCILLATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="OSCSC320X250X100N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Abracon" constant="no"/>
+<attribute name="MP" value="ABM3B-12.000MHZ-B2-T" constant="no"/>
+<attribute name="VALUE" value="ABM3B-12.000MHZ-B2-T" constant="no"/>
 </technology>
 </technologies>
 </device>
