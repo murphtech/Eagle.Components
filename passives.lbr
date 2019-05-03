@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -771,6 +771,27 @@ Source: www.cypress.com .. CY7C6301XX.pdf</description>
 <attribute name="MF" value="Murata" constant="no"/>
 <attribute name="MP" value="GRM188R61C106KAALD" constant="no"/>
 <attribute name="VALUE" value="10uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESR03EZPJ270" prefix="R" uservalue="yes">
+<description>RES SMD 27 OHM 5% 1/4W 0603</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-27" package="M0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Rohm" constant="no"/>
+<attribute name="MP" value="ESR03EZPJ270" constant="no"/>
+<attribute name="VALUE" value="27" constant="no"/>
 </technology>
 </technologies>
 </device>
